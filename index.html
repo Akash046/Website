@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="alert">Please enter the name</div>
+    <div class="container">
+        <div class="right">
+            <div class="header">
+                <h2>WELCOME</h2>
+                <h4>Please enter your details</h4>
+            </div>
+            <div class="form">
+                <form action="">
+                    <label class="n1"><b>Name</b></label>
+                    <input type="text" placeholder="Enter Your Name" id="name1" required><br><br>
+                    <label class="n1"><b>Date of Birth</b></label>
+                    <input type="date" name="" class="date" required><br><br>
+                    <label class="n1"><b>Email</b></label>
+                    <input type="email" name="" class="email" required><br><br>
+                    <label class="n1"><b>Password</b></label>
+                    <input type="password" id="password1" required><br><br>
+                    <label class="n1"><b> Confirm Password</b></label>
+                    <input type="password" id="password2" required><br><br>
+                    <label class="n1"><b>Male</b></label>
+                    <input type="radio" name="gen" class="gender" value="Male">
+                    <label class="n1"><b>Female</b></label>
+                    <input type="radio"  name="gen" class="gender" value="Female">
+                    <!-- <label class="n1"><b>Gender</b></label>
+                    <select name="" class="gen">
+                        <option value="-select-">-select-</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select><br><br> -->
+                    <label for="" class="n1">Java</label>
+                    <input type="checkbox" class="chk" id="chk_1" value="Java"><br>
+                    <label for="" class="n1">JavaScript</label>
+                    <input type="checkbox" class="chk" id="chk_2" value="JavaScript"><br>
+                    <label for="" class="n1">python</label>
+                    <input type="checkbox" class="chk" id="chk_3" value="python"><br>
+                    <label for="" class="n1">C++</label>
+                    <input type="checkbox" class="chk" id="chk_4" value="c++"><br>
+                    <label for="" class="n1">c</label>
+                    <input type="checkbox" class="chk" id="chk_5" value="c"><br>
+                    <button type="button" onclick="formValidation();">Register</button>
+                </form>
+            </div>
+        </div>
+        <!--
+        <div class="left">
+            <img src="image/designbig.jpg" alt="image">
+        </div>-->
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
